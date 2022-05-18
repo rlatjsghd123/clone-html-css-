@@ -1,0 +1,221 @@
+*{
+    font-family: 'Sunflower', sans-serif;
+    list-style:none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.introBg{
+    position: relative;
+    background:url("/img/flash-4244923_1920-1.png") no-repeat;
+    width: 100%;
+    height: 718px; 
+}
+
+header {
+    width: 1280px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .navBar{
+    display: flex;
+    font-size: 24px;
+    margin: 29px 0;
+}
+header .navBar li{
+    margin-right: 84px;
+}
+header .navBar li span{
+    color: white;
+}
+
+.introBg .title{
+    position: absolute;
+    text-align: center; 
+    color: white;
+    top: 50%;
+    left:  50%;
+    transform: translate(-50%, -50%);
+}
+.introBg .title li h1{
+    font-size: 48px;
+    margin-bottom: 3px;
+
+}
+.introBg .title li span{
+    font-size: 20px;
+}
+
+.searchBar input{
+    margin: 24px 0;
+    width: 300px;
+    height: 40px;
+    background-color: white;
+    background-color: transparent;
+    background: #00000080  no-repeat ;
+    border-radius: 5px;
+}
+.statistic{
+    margin: 0 auto;
+    width: 1280px;
+    height: 132px;
+    position: relative;
+    bottom: 61px;
+}
+.statistic .statisticList{
+    display: flex;
+    height: inherit;
+    align-items: center;
+    background-color: white;
+}
+.statistic .statisticList li{
+    width: 25%;
+}
+.statistic .statisticList li span{
+    display: block;
+    text-align: center;
+    border-right: 1px solid rgb(200, 200, 200);
+}
+.statistic .statisticList .del span{
+    border: 0;
+}
+.statistic .statisticList li .nums{
+    font-weight: bold;
+}
+
+.about{
+    width: 100%;
+    height: 601px;
+    margin-top: -132px;
+    background: #F1F2F3 0% 0% no-repeat;
+}
+
+.about .title{
+    padding-top: 116px;
+    text-align: center;
+    margin-bottom: 49px;
+}
+
+.about .title h1{
+    font-size: 48px;
+}
+
+.about .title h1 span{
+    margin-top: 3px;
+    font-size: 20px;
+}
+.about .container{
+    width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    height: 302px;
+    text-align: center;
+}
+.about .container .content1{
+    width: 33%;
+    margin-right: 21px;
+    background-color: #ffffff;
+}
+.about .container .content1 .text{
+    height: 63px;
+}
+.about .container .content1 .icon_img{
+    margin-top: 25px;
+}
+.about .container .content1 .text strong{
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+.about .container .content1 .text span{
+    font-size: 14px;
+}
+.about .container .content1 .text strong,span{
+    display: block;
+}
+.about .container .content1 .text .text_more{
+    margin: 0 auto;
+    width: 100px;
+    height: 30px;
+    background-color: #2F7AF4;
+    margin-top: 15px;
+    line-height: 30px;
+    color: white;
+    
+}
+.service{
+    width: 1280px;
+    height: 659px;
+    margin:auto;
+}
+.service .text{
+    margin-top: 50px;
+    text-align: center;
+}
+.service .text h1{
+    font-size: 48px;
+}
+.service .text span{
+    font-size: 20px;
+}
+.service .news{
+    margin-top: 49px;
+}
+.service .news img{
+    margin-right: 20px;
+    float: left;
+}
+.service .news title{
+    font-size: 24px;
+}
+.service .news .content{
+    font-size: 16px;
+}
+.content2{
+    width: 100%;
+    background: url(/img/flash-4244923_1920.png) no-repeat;
+    height: 420px;
+    color: white;
+    text-align: center;
+    padding-top: 138px;
+}
+.content2 .title{
+    font-size: 48px;
+    padding-bottom: 10px;
+}
+.content2 .content{
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+.content2 .more{
+    font-size: 18px;
+    width: 220px;
+    margin: auto;
+    height: 40px;
+    border: 1px solid white;
+    line-height: 40px;
+}
+footer{
+    width: 100%;
+    display: flex;
+    height: 244px;
+    background-color: #1F1F1F;
+    align-items: center;
+}
+
+footer .logo{
+    width: 33%;
+    text-align: center;
+    color: white;
+    font-size: 48px;
+}
+footer .info{
+    width: 50%;
+    color: white;
+    font-size: 20px;
+}
